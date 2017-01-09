@@ -9,6 +9,7 @@ Se uma aplicação precisa ser portável, é necessário encapsular as dependeci
 
 ## Discussão
 Fornecer um nível de indireção que abstraia a criação das famílias de objetos dependentes ou relacionados, sem especificar diretamente suas classes concretas. O objeto "factory" tem a responsabilidade de fornecer serviços(métodos) para toda uma plataforma ou família de objetos. Clientes nunca criam objetos da plataforma diretamente, sempre utilizam a factory fazer isso para eles.
+
 Este mecanismo faz com que a troca de famílias de objetos seja fácil, porque a classe específica do objeto "factory" apareça apenas uma vez em toda a aplicação, onde é instanciada. A aplicação pode alterar toda a família de produtos simplesmente por instanciar uma classe _abstract factory_ concreta diferente.
 Pelo motivo do serviço fornecido ser tão impactante, esta classe geralmente é implementada como um _singleton_.
 
