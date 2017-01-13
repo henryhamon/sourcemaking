@@ -19,12 +19,12 @@ Clientes preferem um "nível a mais de indireção" que a _interface_ oferece. A
 ## Estrutura
 A interface representa tanto uma classe base abstrata, quanto a assinatura dos métodos que o cliente precisa. No primeiro caso, a hierarquia de herança representa um polimorfismo dinâmico. No outro caso, a _interface_ representa  o modelo de código para o cliente e a hierarquia de herança representa um polimorfismo estático.
 
-![alt text]("https://sourcemaking.com/files/v2/content/patterns/Strategy_.svg")
+![alt text](https://sourcemaking.com/files/v2/content/patterns/Strategy_.svg)
 
 ## Exemplo
 O _Strategy_ define um conjunto de algoritmos que podem ser usados indistintamente. Maneiras de se transportar para um aeroporto é um exemplo de _Strategy_. Dá para ir de várias maneiras, como, ir dirigindo, pegar um táxi, um ônibus, usar o transporte do aeroporto, limusine, etc. Em alguns aeroportos, metrôs e helicópteros também são uma opção. Todos esses tipos de transporte irão levar o viajante para o aeroporto, e eles podem ser usados indistintamente. O viajante precisa escolher a estratégia baseado no custo, conveniência e tempo.
 
-![alt text]("https://sourcemaking.com/files/v2/content/patterns/Strategy_example1.svg")
+![alt text](https://sourcemaking.com/files/v2/content/patterns/Strategy_example1.svg)
 
 ## Check List
 1. Identifique um algoritmo que o cliente gostaria de acessar de maneira flexível.
