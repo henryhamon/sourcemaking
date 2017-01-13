@@ -19,6 +19,6 @@ Quando uma classe estiver com muitas funções diferentes, pense em dividí-la:
 * _Extract Interface_ ajuda se houver necessidade de ter uma lista de operações e comportamentos que o cliente pode usar.
 * Se uma classe muito grande é responsável pela interface gráfica, da para tentar mover uma parte dos dados e comportamentos para uma classe de dominio separado. Fazendo isso, pode ser necessário fazer copias dos mesmos dados em dois lugares e manter os dados consistentes. _Duplicate Observed Data_ oferece uma maneira de fazer isso.
 
-## Consequêcia
+## Consequência
 * Refatorando essa classe elimina a necessidade do programador lembrar uma grande lista de atributos de uma classe.
 * Muitas vezes, a separação das classes evita duplicidade de código e funções.

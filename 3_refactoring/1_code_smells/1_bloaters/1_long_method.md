@@ -19,7 +19,7 @@ Como regra, se você sentir necessidade de comentar alguma coisa dentro do méto
 * Se nenhuma das opções anteriores funcionar, tente mover o método todo para um objeto separado através do _Replace Method with Method Object_.
 * Operadores condicionais e laços de repetição são alguns indícios que algum código pode ser movido para outro método. Onde houver condições utilize, _Decompose Conditional_. Se encontrar laços de repetição, tente  _Extract Method_.
 
-## Consequêcia
+## Consequência
 * Através de todos os tipos de código orientado a objeto, classes com pequenos métodos duram mais. Quanto maior o método ou a função, mais difícil de entender e manter os mesmos.
 * Além disso, os métodos muito grandes oferecem um bom lugar para conter código duplicado desnecessário.
 

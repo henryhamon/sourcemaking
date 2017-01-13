@@ -22,7 +22,7 @@ Outro exemplo de um mal uso de tipo primitivo é simulação de campo(_field sim
 * Quando dados complicados são codificados em variáveis, use _Replace Type Code with Class_, _Replace Type Code with Subclasses_ ou _Replace Type Code with State/Strategy_.
 * Se existe arrays entre as variáveis, use _Replace Array with Object_.
 
-## Consequêcia
+## Consequência
 * O código se torna mais flexível, graças ao uso de objetos em vez de tipos primitivos.
 * Melhor entendimento e organização de código. Operações em cima dos dados são feitos no mesmo lugar, em vez de ser espalhado. Sem dúvidas sobre o significado dessas constantes estranhas e o porquê delas estar em um array.
 * Mais fácil de achar código duplicado.
