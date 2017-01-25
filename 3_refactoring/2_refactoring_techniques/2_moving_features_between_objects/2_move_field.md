@@ -10,7 +10,7 @@ Criar um novo campo na nova classe e redirecionar todos os usuários do campo an
 ![Depois](https://sourcemaking.com/images/refactoring/Move%20Field%20-%20After.png)
 
 ## Porque Refatorar
-Geralmente os campos são movidos como uma parte da técnica de [Extração de Classe](https://sourcemaking.com/refactoring/extract-class).Decidir em qual classe deixar o campo pode ser difícil. Aqui está a nossa regra de ouro: **coloque o campo no mesmo local que o método que o usa** (ou então onde a maioria dos métodos estão)
+Geralmente os campos são movidos como uma parte da técnica de [Extração de Classe](https://github.com/henryhamon/sourcemaking/blob/master/3_refactoring/2_refactoring_techniques/2_moving_features_between_objects/2_move_field.md) e [Mover Métodos](https://github.com/henryhamon/sourcemaking/blob/master/3_refactoring/2_refactoring_techniques/2_moving_features_between_objects/3_extract_class.md).Decidir em qual classe deixar o campo pode ser difícil. Aqui está a nossa regra de ouro: **coloque o campo no mesmo local que o método que o usa** (ou então onde a maioria dos métodos estão)
 Esta regra irá ajudar em outros casos quando um campo está localizado no local errado.
 
 ## Como Refatorar
