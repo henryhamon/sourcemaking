@@ -20,8 +20,8 @@ Existem duas saídas:
 
 ## Como Refatorar
 1. Crie uma nova classe:
-* Opção A: Faça ela ser uma filha da classe utilitária.
-* Opção B: Se você optou por fazer um encapsulamento, crie um campo na classe guardando um objeto da classe utilitária para qual a delegação será feita. Quando usando esta opção você vai precisar também criar métodos que repitam os métodos públicos da classe utilitária e contém simples delegação aos métodos do objeto utilitário.
+     Opção A: Faça ela ser uma filha da classe utilitária.
+     Opção B: Se você optou por fazer um encapsulamento, crie um campo na classe guardando um objeto da classe utilitária para qual a delegação será feita. Quando usando esta opção você vai precisar também criar métodos que repitam os métodos públicos da classe utilitária e contém simples delegação aos métodos do objeto utilitário.
 2. Crie um construtor que utilize os parâmetros do construtor da classe utilitária.
 3. Também crie um construtor "conversor" alternativo que recebe somente o objeto da classe original nos seus parâmetros. Isto irá ajudar a substituir a extensão para objetos da classe original.
 4. Crie novos de extensão na classe. Mova métodos estrangeiros de outras classes para esta classe ou ainda, apague os métodos estrangeiros se a funcionalidade deles já está presente na extensão.
