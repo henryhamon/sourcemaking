@@ -104,10 +104,8 @@ Um modulo GUI que se destina a interface com um módulo de processamento assume 
     * Extender a GUI para três formulários.
     * Fazê-lo _script-driven_ (incluindo o desenvolvimento de um mecanismo de script).
     * Adicionar novos algoritmos para o mecanismo de decisão.
-        Extend the GUI to three forms.
-        Make it script-driven (including the development of a script engine).
-        Add new algorithms to the decision engine.
-
+    
+    
 O desenvolvedor extendo o módulo atual para incorporar todas estas funcionalidades. Então ao invés de desenvolver vários módulos, um simples módulo é desenvolvido. Se a aplicação desejada é arquiteturada e projetada, é mais fácil de manter e extender.
 
 ![...](https://sourcemaking.com/files/v2/content/antipatterns/Blob3%20-%201-2x.png)
