@@ -1,122 +1,114 @@
-# The Blob
+# A Bolha
+* **Nome do Anti-Padrão:** A Bolha
+* **Também conhecido como:** _Winnebago and The God Class_
+* **Escala mais frequente:** Aplicação
+* **Nome da solução refatorada:** Refatoramento de responsabilidades
+* **Tipo da solução refatorada:** _Software_
+* **Causas Raíz:** Preguiça e pressa
+* **Forças Desequilibradas:** Gerênciamento de Funcionalidade, Performance, Complexidade
+* **Evidência Anedótica:** "Esta é a classe que é realmente o coração de nossa arquitetura."
 
-    AntiPattern Name: The Blob
-    Also Known As: Winnebago and The God Class
-    Most Frequent Scale: Application
-    Refactored Solution Name: Refactoring of Responsibilities
-    Refactored Solution Type: Software
-    Root Causes: Sloth, Haste
-    Unbalanced Forces: Management of Functionality, Performance, Complexity
-    Anecdotal Evidence: "This is the class that is really the heart of our architecture."
+## Segundo Plano
+Você se lembra do filme original em preto e branco _The Blob_ (A bolha)? Talvez você somente tenha visto o _remake_ atual. Em ambos os casos, a linha da história é quase a mesma: Um gotejante, alieníjena que parece uma gelatina que veio do espaço de alguma forma para a terra.
+Sempre que a gelatina comia coisas (geralmente desavisados), ela crescia. Enquanto isso, terráqueos incrédulos entraram em pânico e ignoraram o cientista maluco que sabia o que estava acontecento. Muito mais pessoas foram comidas antes delas se darem conta. a Bolha crescia tanto que ameaçava destruir todo o planeta.
+O filme é uma boa analogia para o Anti-Padrão Bolha, o qual é conhecido por consumir arquiteturas inteiras de orientação a objeto.
+![A Bolha](https://sourcemaking.com/files/v2/content/antipatterns/blob-2x.png) 
 
-## Background
+## Formulário Geral
+A Bolha é encontrada em projetos onde existe uma classe que monopoliza o processamento, e outras classes que primariamente encapsulam dados. Este Anti-Padrão é caracterizado por um diagrama de classes composto de uma simples classe controladora complexa cercada por simples classes de dados. O problema chave aqui é que a maioria das responsabilidades são alocadas para uma simples classe.
 
-Do you remember the original black-and-white movie The Blob? Perhaps you saw only the recent remake. In either case, the story line was almost the same: A drip-sized, jellylike alien life form from outer space somehow makes it to Earth.
+No geral, a Bolha é um projeto procedural, embora possa ser representado usando a notação de objeto e implementado em linguagens orientadas a objetos. Um projeto procedural separa o processamento dos dados, enquanto que em um projeto orientado a objetos os modelos de dados e o processamento são fundidos, juntamente com partições.
 
-Whenever the jelly thing eats (usually unsuspecting earthlings), it grows. Meanwhile, incredulous earthlings panic and ignore the one crazy scientist who knows what's happening. Many more people are eaten before they come to their senses. Eventually, the Blob grows so large that it threatens to wipe out the entire planet.
+A Bolha contém a maioria do processamento, e os outros objetos contém os dados. Arquiteturas com a Bolha tem separado o processo dos dados; em outras palavras,
 
-The movie is a good analogy for the Blob AntiPattern, which has been known to consume entire object-oriented architectures.
-[blob](https://sourcemaking.com/files/v2/content/antipatterns/blob-2x.png) 
-
-## General Form
-
-The Blob is found in designs where one class monopolizes the processing, and other classes primarily encapsulate data. This AntiPattern is characterized by a class diagram composed of a single complex controller class surrounded by simple data classes. The key problem here is that the majority of the responsibilities are allocated to a single class.
-
-In general, the Blob is a procedural design even though it may be represented using object notations and implemented in object-oriented languages. A procedural design separates process from data, whereas an object-oriented design merges process and data models, along with partitions.
 
 The Blob contains the majority of the process, and the other objects contain the data. Architectures with the Blob have separated process from data; in other words, they are procedural-style rather than object-oriented architectures.
 
-[blob 2-2x](https://sourcemaking.com/files/v2/content/antipatterns/Blob%20-%202-2x.png)
+![blob 2-2x](https://sourcemaking.com/files/v2/content/antipatterns/Blob%20-%202-2x.png)
 
-The Blob can be the result of inappropriate requirements allocation. For example, the Blob may be a software module that is given responsibilities that overlap most other parts of the system for system control or system management.
+A Bolha pode ser resultado de alocação de requisitos inapropriada. Por exemplo, a Bolha pode ser um módulo de um _software_ que recebe responsabilidades que sobrepõe a maioria das outras partes do sistema para controle do sistema ou o gerenciamento do sistema. 
+A Bolha é também frequentemente um resultado de um desenvolvimento iterativo onde o código de prova de conceito evolui ao longo do tempo em um protótipo, e eventualmente, um sistema de produção. Isto é geralmente agravado pelo uso principalmente de linguagens de programação _GUI-centric_, como Visual Basic, que permite uma simples forma de evoluir a sua funcionalidade, e portanto, durante o desenvolvimento incremental ou prototipagem. 
 
-The Blob is also frequently a result of iterative development where proof-of-concept code evolves over time into a prototype, and eventually, a production system. This is often exacerbated by the use of primarily GUI-centric programming languages, such as Visual Basic, that allow a simple form to evolve its functionality, and therefore purpose, during incremental development or prototyping.
+A alocação de responsabilidades não é reparticionada durante a evolução do sistema, então aquele módulo acaba ficando predominante. A Bolha é geralmente acompanhada de código desnecessário, fazendo ficar difícil de diferenciar entre uma funcionalidade útil da classe Bolha e código legado que não é mais usado(veja o Anti-Padrão _Lava Flow_ ou fluxo de lava).
 
-The allocation of responsibilities is not repartitioned during system evolution, so that one module becomes predominant. The Blob is often accompanied by unnecessary code, making it hard to differentiate between the useful functionality of the Blob Class and no-longer-used code (see the Lava Flow AntiPattern).
-## Symptoms And Consequences
+## Sintomas e Consequências
+* Uma simples classe com um grande número de atributos, operações, ou ambos. Uma classe com 60 ou mais atributos e operações geralmente indica a presença da Bolha.
+* Uma coleção disparada de atributos não relacionados e operações encapsuladas em uma única classe. Uma falta geral de coesão dos atributos e operações é típica da Bolha.
+* Uma simples classe controladora com simples associadas, classes de dados.
+* Uma ausência de projeção orientada a objetos. Um loop principal do programa dentro da classe Bolha associado a objetos de dados relativamente passivos. Uma simples classe controladora geralmente encapsula a funcionalidade de aplicativos internos, bem como um programa principal procedural.
+* Um projeto legado que não foi devidamente refatorado em um projeto orientado a objetos.
+* A Bolha compromete as vantagens inerentes de um projeto orientado a objetos. Por exemplo, a Bolha limita a habilidade de modificar o sistema sem afetar a funcionalidade de outros objetos encapsulados. Modificações na Bolha afetam o extenso software dentro do encapsulamento da Bolha. Modificações para outros objetos no sistema também irão provavelmente impactar o software na Bolha.
+* A classe da Bolha é tipicamente muito complexa para reusar e testar. Isto pode não ser eficiente, ou introduzir uma complexidade excessiva ao reuso da Bolha para subconjuntos de sua funcionalidade.
+* A classe da Bolha pode ser pesada de se carregar na memória, usar recursos excessivos, mesmo para operações simples.
 
-    Single class with a large number of attributes, operations, or both. A class with 60 or more attributes and operations usually indicates the presence of the Blob
-    A disparate collection of unrelated attributes and operations encapsulated in a single class. An overall lack of cohesiveness of the attributes and operations is typical of the Blob.
-    A single controller class with associated simple, data-object classes.
-    An absence of object-oriented design. A program main loop inside the Blob class associated with relatively passive data objects. The single controller class often nearly encapsulates the applications entire functionality, much like a procedural main program.
-    A migrated legacy design that has not been properly refactored into an object-oriented architecture.
-    The Blob compromises the inherent advantages of an object-oriented design. For example, The Blob limits the ability to modify the system without affecting the functionality of other encapsulated objects. Modifications to the Blob affect the extensive software within the Blob's encapsulation. Modifications to other objects in the system are also likely to have impact on the Blob's software.
-    The Blob Class is typically too complex for reuse and testing. It may be inefficient, or introduce excessive complexity to reuse the Blob for subsets of its functionality.
-    The Blob Class may be expensive to load into memory, using excessive resources, even for simple operations.
+## Causas Típicas
+* Falta de uma arquitetura orientada a objetos. Os projetistas podem não ter um entendimento adequado dos principios da orientação a objetos. Alternativamente, a equipe pode não possuir habilidades de abstração apropriadas.
+* Falta de (qualquer) arquitetura. A ausência de definição de componentes do sistema, suas integrações, e o uso específico das linguagens de programação selecionadas. Isto permite que os programas evoluam de forma _ad hoc_, porque as linguagens de programação são usadas para outros fins, e não para os que foram destinadas. 
+* Falta de aplicação da arquitetura. As vezes este Anti-Padrão cresce acidentalmente, mesmo depois de uma arquitetura razoável ter sido planejada. Isto pode ser o resultado de uma revisão de arquitetura inadequada. Isto é especialmente prevalente quando as equipes de desenvolvimento são novas na orientação a objetos.
+* Intervenção muito limitada. Em projetos interativos, desenvolvedores tendem a adicionar pequenas peças de funcionalidade para classes que já estão funcionando, ao invés de adicioná-las a novas classes, or revisar a hierarquia da classe para uma alocação mais efetiva de responsabilidades.
+* Desasrte especificado. As vezes a Bolha resulta da forma com que os requisitos são especificados. Se os requerimentos ditam uma solução procedural, então os compromissos arquiteturais podem ser feitos durante a análise de requisitos que são difíceis de mudar. Definindo a arquitetura do sistema como parte da análise de requisitos é geralmente inapropriado, e frequentemente leva para o Anti-Padrão Bolha, ou pior  
+  
+## Exceções Conhecidas
+A Bolha - Anti-Padrão é aceitável quando envolvendo sistemas legados. Onde não é necessário o particionamento de _software_, somente uma camada final de código para fazer o sistema legado ser mais acessível.
 
-## Typical Causes
+## Solução Refatorada
+Como a maioria dos Anti-Padrões desta seção, a solução envolve uma forma de refatoramento. A chave é mover o comportamento para longe da Bolha. Pode ser apropriado reatribuir o comportamento a alguns dos objetos de dados encapsulados de uma maneira que torna esses objetos mais capazes e a  Bolha menos complexa. O método para as responsabilidades de refatoração é descrito a seguir:
+1. Identifique o categorize os atributos e operações relacionados de acordo com os contratos. Estes contratos precisam ser coesos de forma que eles todos direcionem para um foco comum, comportamento, ou função dentro do sistema no geral. Por exemplo, um diagrama de biblioteca do sistema é representado com uma potencial classe Bolha chamada _LIBRARY_.
 
-    Lack of an object-oriented architecture. The designers may not have an adequate understanding of object-oriented principles. Alternatively, the team may lack appropriate abstraction skills.
-    Lack of (any) architecture. The absence of definition of the system components, their interactions, and the specific use of the selected programming languages. This allows programs to evolve in an ad hoc fashion because the programming languages are used for other than their intended purposes.
-    Lack of architecture enforcement. Sometimes this AntiPattern grows accidentally, even after a reasonable architecture was planned. This may be the result of inadequate architectural review as development takes place. This is especially prevalent with development teams new to object orientation.
-    Too limited intervention. In iterative projects, developers tend to add little pieces of functionality to existing working classes, rather than add new classes, or revise the class hierarchy for more effective allocation of responsibilities.
-    Specified disaster. Sometimes the Blob results from the way requirements are specified. If the requirements dictate a procedural solution, then architectural commitments may be made during requirements analysis that are difficult to change. Defining system architecture as part of requirements analysis is usually inappropriate, and often leads to the Blob AntiPattern, or worse.
+No exemplo mostrado na figura 1, a classe _LIBRARY_ encapsula a soma de todas as funcionalidades do sistema. Assim sendo, o primeiro passo é identifica conjuntos de operações e atributos coesos que representam contratos. Neste caso, nós podemos coletar operações relacionadas ao gerenciamento de catalogo, como _Sort-Catalog_ and _Search-Catalog_.
+Nós podemos também idenficiar todas as operações e atributos relacionados a itens individuais, como _Print-Item_, _Delete-Item_, e assim por diante.
+![Figura 1](https://sourcemaking.com/files/v2/content/antipatterns/Blob2%20-%203-2x.png)
+Figura 1 
 
-## Known Exceptions
 
-The Blob AntiPattern is acceptable when wrapping legacy systems. There is no software partitioning required, just a final layer of code to make the legacy system more accessible.
+![Figura 2](https://sourcemaking.com/files/v2/content/antipatterns/Blob2%20-%204-2x.png)
+Figura 2 
 
-## Refactored Solution
+2. O segundo passo é procurar por "lares naturais" para estas coleções de funcionalidades baseadas em contratos e migrá-las para lá. Neste exemplo, nós coletamos operações relacionadas aos catalogos e migramos elas da classe _LIBRARY_ e movemos elas para a classe _CATALOG_.
 
-As with most of the AntiPatterns in this section, the solution involves a form of refactoring. The key is to move behavior away from the Blob. It may be appropriate to reallocate behavior to some of the encapsulated data objects in a way that makes these objects more capable and the Blob less complex. The method for refactoring responsibilities is described as follows:
+Nós fazemos o mesmo com operações e atributos relacionados aos itens, movendo eles para a classe _ITEM_. Ambos simplificam a classe _LIBRARY_ e fazem as classes _ITEM_ e _CATALOG_ mais simples do que tabelas de dados encapsulados. O resultado é um melhor modelo de orientação a objeto.
+![Figura 3](https://sourcemaking.com/files/v2/content/antipatterns/Blob2%20-%205-2x.png)
+Figura 3
 
-    Identify or categorize related attributes and operations according to contracts. These contracts should be cohesive in that they all directly relate to a common focus, behavior, or function within the overall system. For example, a library system architecture diagram is represented with a potential Blob class called LIBRARY.
+3. O terceiro passo é remover todos as "muito-acoplados", ou redundantes, "indiretas". No exemplo, a classe _ITEM_ é inicialmente acoplada a classe _LIBRARY_, onde cada item realmente pertence a _CATALOG_, que ao mesmo tempo pertence a _LIBRARY_.
+4. Em seguida, onde for apropriado, nós migramos os associados para as classes derivadas para uma classe base comum. No exemplo, uma fez que uma acoplada foi removida entre as classes _LIBRARY_ e _ITEM_, nós precisamos mirgrar _ITEM_s para _CATALOG_s, como mostrado na figura 4.
+![Figura 4](https://sourcemaking.com/files/v2/content/antipatterns/Blob2%20-%206-2x.png)
+Figura 4
 
-    In the example shown in figure 1, the LIBRARY class encapsulates the sum total of all the system's functionality. Therefore, the first step is to identify cohesive sets of operations and attributes that represent contracts. In this case, we could gather operations related to catalog management, like Sort_Catalog and Search_Catalog.
+5. Finalmente, nós removemos todas as associações temporárias, substituindo-as, conforme apropriado, por especificadores de tipo para atributos e argumentos de operação;
 
-    We could also identify all operations and attributes related to individual items, such as Print_Item, Delete_Item, and so on.
+Em nosso exemplo, um _Check-Out-Item_ ou um _Search-For-Item_ seriam um processo temporário, e poderiam ser movidos em um classe temporária separada com atributos locais que estabeleceriam a localização específica ou critério de pesquisa para uma instância específica de um _check-out_ ou pesquisa.
 
-    Figure 1
 
-    Figure 2
+## Variações
+As vezes, com um sistema composte de classe da Bolha e os seus objetos de dados de suporte, muito trabalho foi investido para habilitar a refatoração da arquitetura da classe. Uma abordagem alternativa pode estar disponível que proporcione uma solução de "80%".
+Ao invés de uma refatoração da "cabeça aos pés" da hierarquia da classe inteira, é possível reduzir a classe da Bolha de uma classe controladora para uma classe coordenadora. A classe Bolha original gerencia a funcionalidade do sistema; As classes de dados são extendidas com parte do seu próprio processamento.
+As classes de dados operam em direção da classe modificada coordenadora. Este processo pode permitir a retenção da hierarquia da classe original, exceto para as migrações de funcionalidades de processamento da classe Bolha para alguma das classes de dados encapsuladas.
+Riel identifica duas grandes formas do Anti-Padrão Bolha. Ele as chama estas duas formas de Classes de Deus: Forma Comportamental e Formulário de Dados.
+A forma comportamental é um objeto que contém um processo centralizado que interaje com a maioria das outras partes do sistema. O Formulário de Dados é um objeto que contém dados compartilhados usados pela maioria de outros objetos no sistema. Riel introduz um número de heurísticas da orientação a objeto para detectar problemas e refatoração de projetos das Classes de Deus.
 
-    The second step is to look for "natural homes" for these contract-based collections of functionality and then migrate them there. In this example, we gather operations related to catalogs and migrate them from the LIBRARY class and move them to the CATALOG class.
+## Aplicabilidade para outros Pontos de Vista e Medidas
+Ambos pontos de vista, arquitetônico e administrativo, desempenham papéis fundamentais na prevenção do Anti-Padrão Bolha. A prevenção da Bolha pode exigir policiamento contínuo da arquitetura para garantir uma distribuição adequada das responsabilidades. 
+É através de um ponte de vista arquitetônico que uma Bolha emergente é reconhecida. Com uma análise e processo de projeção orientado a objetos maduro, e um gerente de alerta que entende o projeto, os desenvolvedores podem impedir o aparecimento de uma Bolha.
+O fator mais importante é que, na maioria dos casos, é muito menos desgastante criar um projeto apropriado do que retrabalhar o projeto depois da implementação. Um investimento inicial em uma boa arquitetura e a educação do time pode garantir que um projeto não seja afetado pela Bolha e a maioria dos outros Anti-Padrões.
+Pergunte a qualer vendedor de seguros, e ele ou lea pode-lhe dizer que a maioria de seguros é comprado depois que foi necessário por pessoas que são mais pobres, mas mais espertas.
 
-    We do the same with operations and attributes related to items, moving them to the ITEM class. This both simplifies the LIBRARY class and makes the ITEM and CATALOG classes more than simple encapsulated data tables. The result is a better object-oriented design.
-
-    Figure 3
-    The third step is to remove all "far-coupled," or redundant, indirect associations. In the example, the ITEM class is initially far-coupled to the LIBRARY class in that each item really belongs to a CATALOG, which in turn belongs to a LIBRARY.
-    Next, where appropriate, we migrate associates to derived classes to a common base class. In the example, once the far-coupling has been removed between the LIBRARY and ITEM classes, we need to migrate ITEMs to CATALOGs, as shown in figure 4.
-
-    Figure 4
-    Finally, we remove all transient associations, replacing them as appropriate with type specifiers to attributes and operations arguments.
-
-    In our example, a Check_Out_Item or a Search_For_Item would be a transient process, and could be moved into a separate transient class with local attributes that establish the specific location or search criteria for a specific instance of a check-out or search.
-
-## Variations
-
-Sometimes, with a system composed of the Blob class and its supporting data objects, too much work has been invested to enable a refactoring of the class architecture. An alternative approach may be available that provides an "80%" solution.
-
-Instead of a bottom-up refactoring of the entire class hierarchy, it may be possible to reduce the Blob class from a controller to a coordinator class. The original Blob class manages the system's functionality; the data classes are extended with some of their own processing.
-
-The data classes operate at the direction of the modified coordinator class. This process may allow the retention of the original class hierarchy, except for the migrations of processing functionality from the Blob class to some of the encapsulated data classes.
-
-Riel identifies two major forms of the Blob AntiPattern. He calls these two forms God Classes: Behavioral Form and Data Form
-
-The Behavioral Form is an object that contains a centralized process that interacts with most other parts of the system. The Data Form is an object that contains shared data used by most other objects in the system. Riel introduces a number of object-oriented heuristics for detect ing and refactoring God Class designs.
-
-## Applicability To Other Viewpoints And Scales
-
-Both architectural and managerial viewpoints play key roles in the initial prevention of the Blob AntiPattern. Avoidance of the Blob may require ongoing policing of the architecture to assure adequate distribution of responsibilities.
-
-It is through an architectural viewpoint that an emerging Blob is recognized. With a mature object-oriented analysis and design process, and an alert manager who understands the design, developers can prevent the cultivation of a Blob.
-
-The most important factor is that, in most cases, it's much less expensive to create appropriate design than to rework design after implementation. Up-front investment in good architecture and team education can ensure a project against the Blob and most other AntiPatterns.
-
-Ask any insurance salesperson, and he or she may tell you that most insurance is purchased after it was needed by people who are poorer but wiser.
-
-## Example
-
-A GUI module that is intended to interface to a processing module gradually takes on the processing functionality of background-processing modules. An example of this is a PowerBuilder screen for customer data entry/retrieval. The screen can:
-
-    Display data.
-    Edit data.
-    Perform simple type validation. The developer then adds functionality to what was intended to be the decision engine:
-        Complex validation.
-        Algorithms that use the validated data to assess next actions.
-    The developer then gets new requirements to:
+## Exemplo
+Um modulo GUI que se destina a interface com um módulo de processamento assume gradualmente a funcionalidade de processamento em segundo plano. Um exemplo disto é uma tela _PowerBuilder_ para entrada/recuperação de dados. A tela pode:
+1. Mostrar dados.
+2. Editar dados.
+3. Fazer a validação simples de tipo. O desenvolvedor então adiciona a funcionalidade ao que foi planejado para ser o mecanismo de decisão:
+    * Validação complexa.
+    * Algoritmos que usam os dados validados para acessar as próximas ações.
+4. O desenvolvedor então recebe novos requisitos para:
+    * Extender a GUI para três formulários.
+    * Fazê-lo _script-driven_ (incluindo o desenvolvimento de um mecanismo de script).
+    * Adicionar novos algoritmos para o mecanismo de decisão.
         Extend the GUI to three forms.
         Make it script-driven (including the development of a script engine).
         Add new algorithms to the decision engine.
 
-The developer extends the current module to incorporate all of this functionality. So instead of developing several modules, a single module is developed. If the intended application is architected and designed, it is easier to maintain and extend.
+O desenvolvedor extendo o módulo atual para incorporar todas estas funcionalidades. Então ao invés de desenvolver vários módulos, um simples módulo é desenvolvido. Se a aplicação desejada é arquiteturada e projetada, é mais fácil de manter e extender.
+
+![...](https://sourcemaking.com/files/v2/content/antipatterns/Blob3%20-%201-2x.png)
+![---](https://sourcemaking.com/files/v2/content/antipatterns/Blob3%20-%202-2x.png)
