@@ -10,10 +10,10 @@ Por exemplo, e-mail é inapropriado para discussões confrontadoras. Chamas se i
 Também conhecido como *E-mail Flaming*, este mini-AntiPadrão pode causar uma variedade de resultados negativos, alguns dos quais listados aqui, seguidos por recomendações e medidas preventivas:
 
  * Uma mensagem "confidencial" provavelmente acabará na caixa de entrada da pessoa que você não quer que leia. O melhor conselho é tratar cada e-mail como se fosse diretamente para o seu pior inimigo ou o competidor mais difícil. 
- * E-mails podem ser distribuído instantâneamente para um largo número de pessoas; por exemplo, departamentos inteiros, empresas, _mailing lists_ e forums públicos na Internet. Trate cada e-mail como se ele fosse ser impresso na primeira página do _The Washington Post_.
- * Uma mensagem de e-mail pode ser gravada permanentemente. Trate cada e-mail como se pudesse ser utilizada como evidência em um julgamento.
+ * E-mails podem ser distribuídos instantâneamente para um largo número de pessoas; por exemplo, departamentos inteiros, empresas, _mailing lists_ e forums públicos na Internet. Trate cada e-mail como se ele fosse ser impresso na primeira página do _The Washington Post_.
+ * Uma mensagem de e-mail pode ser gravada permanentemente. Trate cada e-mail como se pudesse ser utilizado como evidência em um julgamento.
  
-E-mail é um modo ineficiente de comunicação para assuntos complexos. Devido a tecnologia e outras características chave do meio, e-mail é sujeito a erro de interpretação, devido a frequente troca de e-mail reduz a discussão ao menor denominador comum.
+E-mail é um modo ineficiente de comunicação para assuntos complexos. Devido a tecnologia e outras características chaves do meio, e-mail é sujeito a erro de interpretação, devido a frequente troca de e-mail reduz a discussão ao menor denominador comum.
 
 Além do mais, grupos de e-mail enviam dezenas de posts de todo tipo de topicos, incluindo o trivial e o não essencial. Estas longas discussões consomem tempo e são trabalhosas.
 
