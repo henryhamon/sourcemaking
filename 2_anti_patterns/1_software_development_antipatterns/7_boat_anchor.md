@@ -30,10 +30,12 @@ Boas práticas de engenharia incluem a provisão de um _backup_ técnico, uma ab
 
 *Good engineering practice includes the provision for technical backup, an alternative approach that can be instituted with minimal software rework. The selection of technical backup is an important risk-mitigation strategy.*
 
-_Backups_ técnicos devem ser identificados para a maioria de tecnologias de infraestrutura (dos quais a maiora dos softwares dependem), e para outras tecnologias em áreas de alto risco. _Backups_ técnicos 
+_Backups_ técnicos devem ser identificados para a maioria de tecnologias de infraestrutura (dos quais a maiora dos softwares dependem), e para outras tecnologias em áreas de alto risco. Os _backups_ técnicos devem ser avaliados juntamente com as tecnologias críticas no processo de seleção. A prototipagem com licenças de avaliação (disponível na maioria dos fornecedores) é recomendada para tecnologias de críticas e de tecnologias de _back-up_.
 
 *Technical backups should be identified for most infrastructure technologies (upon which most software depends), and for other technologies in high-risk areas. Technical backups should be evaluated along with critical-path technologies in the selection process. Prototyping with evaluation licenses (available from most vendors) is recommended for both critical-path and back-up technologies.*
 
 ## AntiPadrões Relacionados
+
+Fazer decisões racionais é explanado na solução do _Irrational Management AntiPattern_. Fazer decisões racionais pode ser usada no objetivo do processo de seleção de tecnologias para identificar Âncoras e priorizar a aquisição. A solução do _the Smoke and Mirrors AntiPattern_ descreve as práticas de précompra de tecnologia para avaliação, incluindo o _review_ da documentação do produto e o treine-antes-de-comprar.
 
 *Rational decision making is explained in the solution to the Irrational Management AntiPattern. Rational decision making can be used as an objective technology selection process to identify Boat Anchors prior to acquisition. The solution to the Smoke and Mirrors AntiPattern describes the practices for prepurchase technology evaluation, including review of product documentation and train-before-you-buy.*
