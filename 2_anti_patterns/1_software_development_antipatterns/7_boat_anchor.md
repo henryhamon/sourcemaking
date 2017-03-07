@@ -24,12 +24,16 @@ Após um investimento significante de tempo e recursos, o pessoal técnico perce
 
 *After a significant investment of time and resources, the technical staff realizes that the product is useless in the current context, and abandons it for another technical approach. Eventually, the Boat Anchor is set aside and gathers dust in some corner (if it's hardware).*
 
-##Refactored Solution
+## Solução Refatorada
 
-Good engineering practice includes the provision for technical backup, an alternative approach that can be instituted with minimal software rework. The selection of technical backup is an important risk-mitigation strategy.
+Boas práticas de engenharia incluem a provisão de um _backup_ técnico, uma abordagem alternativa pode ser instituindo um mínimo de retrabalho de software. A escolha do _backup_ técnico uma importante estratégia de redução de riscos.
 
-Technical backups should be identified for most infrastructure technologies (upon which most software depends), and for other technologies in high-risk areas. Technical backups should be evaluated along with critical-path technologies in the selection process. Prototyping with evaluation licenses (available from most vendors) is recommended for both critical-path and back-up technologies.
+*Good engineering practice includes the provision for technical backup, an alternative approach that can be instituted with minimal software rework. The selection of technical backup is an important risk-mitigation strategy.*
 
-##Related AntiPatterns
+_Backups_ técnicos devem ser identificados para a maioria de tecnologias de infraestrutura (dos quais a maiora dos softwares dependem), e para outras tecnologias em áreas de alto risco. _Backups_ técnicos 
 
-Rational decision making is explained in the solution to the Irrational Management AntiPattern. Rational decision making can be used as an objective technology selection process to identify Boat Anchors prior to acquisition. The solution to the Smoke and Mirrors AntiPattern describes the practices for prepurchase technology evaluation, including review of product documentation and train-before-you-buy.
+*Technical backups should be identified for most infrastructure technologies (upon which most software depends), and for other technologies in high-risk areas. Technical backups should be evaluated along with critical-path technologies in the selection process. Prototyping with evaluation licenses (available from most vendors) is recommended for both critical-path and back-up technologies.*
+
+## AntiPadrões Relacionados
+
+*Rational decision making is explained in the solution to the Irrational Management AntiPattern. Rational decision making can be used as an objective technology selection process to identify Boat Anchors prior to acquisition. The solution to the Smoke and Mirrors AntiPattern describes the practices for prepurchase technology evaluation, including review of product documentation and train-before-you-buy.*
