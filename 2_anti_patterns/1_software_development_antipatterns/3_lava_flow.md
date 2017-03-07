@@ -104,25 +104,22 @@ Quando nós questionamos os desenvolvedores atuais sobre alguns destes segmentos
 
 Depois de dois dias de examinação de código, nós imaginamos que a maioria do código que compunha o sistema foi na sua maioria similar ao código que nós já examinamos: completamente um Fluxo de Lava.
 
-Nós colhemnos muito pouco que nos ajudou a articular como a arquitetura deles foi construída; portanto, era quase impossível a  
+Nós colhemnos muito pouco que nos ajudou a articular como a arquitetura deles foi construída; portanto, era quase impossível para mim. Neste ponto, nós essencialmente desistimos de tentar minerar o código e ao invés de focar nas explicações dos desenvolvedores atuais do que está "realmente" acontecento, acreditando que de alguma forma codificar o trabalho deles em extensões de interface que pudessemos incorporar em nossas próximas revisões para nosso _framework_ interaplicações.
+
+Uma solução era isolar a única, pessoa chave que melhor entendia o sistema que eles desenvolveram, e então, em seguida escrever em conjunto um IDL com aquela pessoa. Naquela superfície, a proposta do IDL que nós escrevemos em conjunto para apoiar uma demonstração de crise que durou semanas.
+
+Utilizando o Mini-Anti-Padrão Simulação de Incêndio, nós fomos capaz de obter que os desenvolvedores do sistema validassem nosso IDL usando ele para rapidamente construir um _CORBA wrapper_ para o produto deles para a demonstração. Muitas pessoas perderam muito sono, mas a demonstração foi bem. Existia, com certeza, um efeito colateral para esta solução: Nós terminamos com a interface, em IDL, que tínhamos decidido descobrir em primeiro lugar. 
 
 
-We gleaned very little that helped us articulate how their architecture actually was constructed; therefore, it was nearly impossible to mine. At this point, we essentially gave up trying to mine the code and instead focused on the current developer's explanations of what was "really" going on, hoping to somehow codify their work into interface extensions that we could incorporate into our upcoming revisions to our generic interapplication framework.
+## Soluções Refatoradas
+Em nosso mundo competitivo de hoje, é geralmente desejável minimizar o atraso entre R&D e produção. Em muitas indústrias, isto é crítico para a sobrevivência da compania. Quando é este o caso, a "vacina" contra o Fluxo de Lava pode as vezes ser encontrado um processo de gerenciamento de configuração customizado(CM) que coloca controles de limitação certeiros no lugar de um estágio de prototipação, similar a "ganchos" no real, desenvolvimento da classe de produção sem o impacto restritivo total sobre o caráter experimental do R&D. 
 
-One solution was to isolate the single, key person who best understood the system they had developed, and then to jointly write IDL with that person. On the surface, the purpose of the IDL we were jointly writing was to support a crisis demonstration that was weeks away.
+Quando possível, a automação pode desempenhar um grande papel aqui, mas a chave reside na customização de um processo _quasi-CM_ que pode ser facilmente dimensionado para um sistema de controle CM completo quando o produto se move para um ambiente de produção. O problema é os custos do balanço entre o CM dificultando o processo criativo e o custo de rápidamente ganhar controle do CM do desenvolvimento uma vez que o processo criativo fez nascer algo útil e comercializavel. 
 
-By utilizing the Fire Drill Mini-AntiPattern, we were able to get the systems developers to validate our IDL by using it to rapidly build a CORBA wrapper for their product for the demonstration. Many people lost a lot of sleep, but the demonstration went well. There was, of course, one side effect to this solution: We ended up with the interface, in IDL, which we had set out to discover in the first place.
-Related Solutions
-
-In today's competitive world, it is often desirable to minimize the time delay between R&D and production. In many industries, this is critical to a company's survival. Where this is the case, inoculation against Lava Flow can sometimes be found in a customized configuration-management (CM) process that puts certain limiting controls in place at the prototyping stage, similar to "hooks" into a real, production-class develop ment without the full restraining impact on the experimental nature of R&D.
-
-Where possible, automation can play a big role here, but the key lies in the customization of a quasi-CM process that can be readily scaled into a full-blown CM control system once the product moves into a production environment. The issue is one of balance between the costs of CM in hampering the creative process and the cost of rapidly gaining CM control of the development once that creative process has birthed something useful and marketable.
-
-This approach can be facilitated by periodic mapping of a prototyping system into an updated system architecture, including limited, but standardized inline documentation of the code.
+Esta abordagem pode ser facilitada por um mapeamento periódico de um sistema de prototipagem em uma arquitetura de sistema atualizada, incluindo limitada, mas padronizada documentação _inline_ no código.
 
 
-Applicability To Other Viewpoints And Scales
+## Aplicabilidade para outros Pontos de Vista e Medidas
+O ponto de vista arquitetural desempenha um papel importante prevenindo Fluxos de Lava inicialmente. Gerentes pode também desempenhar um papel na identificação precoce de Fluxos de Lava ou as circunstâncias que podem levar a um Fluxo de Lava. Estes gerentes podem também ter a autoridade para colocar os freios quando o Fluxo de Lava é primariamente identificado, adiando desenvolvimentos futuros até que uma arquitetura clara pode ser definida e disseminada.
 
-The architectural viewpoint plays a key role in preventing Lava Flows initially. Managers can also play a role in early identification of Lava Flows or the circumstances that can lead to Lava Flows. These managers must also have the authority to put the brakes on when Lava Flow is first identified, postponing further development until a clear architecture can be defined and disseminated.
-
-As with most AntiPatterns, prevention is always cheaper than correction, so up-front investment in good architecture and team education can typically ensure a project against this and most other AntiPatterns. While this initial cost does not show immediate returns, it is certainly a good investment.
+Como a maioria dos Anti-Padrões, prevenção é sempre mais barata do que correção, então investimentos em boa arquitetura e educação da equipe pode tipicamente garantir um projeto contra a maioria de outros Anti-Padrões. Enquanto este custo inicial não mostra retornos imediatos, ele é certamente um bom investimento.
