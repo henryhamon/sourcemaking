@@ -20,6 +20,7 @@ Revisões e correções ortográficas de capitulos já traduzidos são bem-vinda
 - [x] [1_design_patterns/2_structural_patterns/1_adapter](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/1_adapter.md)
 - [ ] [1_design_patterns/3_behavioral_patterns/1_chain_of_responsibility](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/1_chain_of_responsibility.md)
 - [x] [1_design_patterns/3_behavioral_patterns/10_strategy](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/10_strategy.md)
+
 #### 2. Anti-Patterns
 - [x] [2_anti_patterns/1_software_development_antipatterns/1_the_blob](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/1_the_blob.md)
 - [x] [2_anti_patterns/1_software_development_antipatterns/2_countinuous_obsolescence](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/2_countinuous_obsolescence.md)
