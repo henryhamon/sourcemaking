@@ -6,7 +6,7 @@ Projeto de tradução do "SourceMaking" para o português do Brasil.
 Versão online em inglês:
 http://sourcemaking.com
 
-### Como contribuir
+## Como contribuir
 
 Para revisões de tradução ou tradução de capitulos faça um fork deste repositório e submeta sua contribuição.
 
@@ -14,22 +14,23 @@ No caso de traduções, verifique o status de cada capitulo abaixo, caso já est
 
 Revisões e correções ortográficas de capitulos já traduzidos são bem-vindas.
 
-### Status da Tradução
-#### 1. Design Patterns
+## Status da Tradução
+### 1. Design Patterns
 - [x] [1_design_patterns/1_creational_patterns/1_abstract_factory](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/1_abstract_factory.md)
 - [x] [1_design_patterns/2_structural_patterns/1_adapter](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/1_adapter.md)
 - [ ] [1_design_patterns/3_behavioral_patterns/1_chain_of_responsibility](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/1_chain_of_responsibility.md)
 - [x] [1_design_patterns/3_behavioral_patterns/10_strategy](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/10_strategy.md)
 
 
-#### 2. Anti-Patterns
-- [x] [2_anti_patterns/1_software_development_antipatterns/1_the_blob](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/1_the_blob.md)
+### 2. Anti-Patterns
+#### 2.1 Software Development
+##### 2.1.1 - [x] [The Blob](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/1_the_blob.md)
 - [x] [2_anti_patterns/1_software_development_antipatterns/2_countinuous_obsolescence](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/2_countinuous_obsolescence.md)
 - [x] [2_anti_patterns/1_software_development_antipatterns/3_lava_flow](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/3_lava_flow.md)
 - [ ] [2_anti_patterns/1_software_development_antipatterns/4_ambiguous_viewpoint](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/4_ambiguous_viewpoint.md)
 - [ ] [2_anti_patterns/1_software_development_antipatterns/5_functional_decomposition](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/5_functional_decomposition.md)
 - [ ] [2_anti_patterns/1_software_development_antipatterns/6_poltergeists](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/6_poltergeists.md)
-- [ ] [2_anti_patterns/1_software_development_antipatterns/7_boat_anchor](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/7_boat_anchor.md)
+- [x] [2_anti_patterns/1_software_development_antipatterns/7_boat_anchor](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/7_boat_anchor.md)
 - [ ] [2_anti_patterns/1_software_development_antipatterns/8_golden_hammer](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/8_golden_hammer.md)
 - [ ] [2_anti_patterns/1_software_development_antipatterns/9_dead_end](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/9_dead_end.md)
 - [ ] [2_anti_patterns/1_software_development_antipatterns/10_spaghetti_code](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/10_spaghetti_code.md)
