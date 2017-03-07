@@ -16,13 +16,8 @@ Revisões e correções ortográficas de capitulos já traduzidos são bem-vinda
 
 ### Status da Tradução
 #### 1. Design Patterns
-##### 1. Creational Patterns
 - [x] [1_design_patterns/1_creational_patterns/1_abstract_factory](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/1_abstract_factory.md)
-
-##### 2. Structural Patterns
 - [x] [1_design_patterns/2_structural_patterns/1_adapter](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/1_adapter.md)
-
-##### 3. Behavioral Patterns
 - [ ] [1_design_patterns/3_behavioral_patterns/1_chain_of_responsibility](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/1_chain_of_responsibility.md)
 - [x] [1_design_patterns/3_behavioral_patterns/10_strategy](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/10_strategy.md)
 
