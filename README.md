@@ -16,15 +16,18 @@ Revisões e correções ortográficas de capitulos já traduzidos são bem-vinda
 
 ## Status da Tradução
 ### 1. Design Patterns
-- [x] [1_design_patterns/1_creational_patterns/1_abstract_factory](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/1_abstract_factory.md)
-- [x] [1_design_patterns/2_structural_patterns/1_adapter](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/1_adapter.md)
-- [ ] [1_design_patterns/3_behavioral_patterns/1_chain_of_responsibility](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/1_chain_of_responsibility.md)
-- [x] [1_design_patterns/3_behavioral_patterns/10_strategy](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/10_strategy.md)
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1 Creational Patterns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 - [x] [Abstract Factory](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/1_abstract_factory.md)
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2 Structural Patterns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.1 - [x] [Adapter](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/1_adapter.md)
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3 Behavioral Patterns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3.1 - [ ] [Chain of Responsability](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/1_chain_of_responsibility.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3.10 - [x] [Strategy](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/10_strategy.md)
 
 
 ### 2. Anti-Patterns
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 Software Development
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1 - -[x] [The Blob](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/1_the_blob.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1 - [x] [The Blob](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/1_the_blob.md)
 
 
 - [x] [2_anti_patterns/1_software_development_antipatterns/2_countinuous_obsolescence](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/2_countinuous_obsolescence.md)
