@@ -1,18 +1,28 @@
-#Boat Anchor
+# Âncora
 
-##AntiPattern Problem
+## Problema do Anti-Padrão
 
-A Boat Anchor is a piece of software or hardware that serves no useful purpose on the current project. Often, the Boat Anchor is a costly acquisition, which makes the purchase even more ironic.
+A âncora é um pedaço de software ou hardware que não tem nenhum propósito útil ao projeto atual. Frequentemente, a âncora é uma aquisição onerosa, que torna a compra ainda mais irônica.
 
-The reasons for acquiring a Boat Anchor are usually compelling at the time. For example, a policy or programmatic relationship may require the purchase and usage of a particular piece of hardware or software. This is a starting assumption (or constraint) of the software project. Another compelling reason is when a key manager is convinced of the utility of the acquisition.
+*A Boat Anchor is a piece of software or hardware that serves no useful purpose on the current project. Often, the Boat Anchor is a costly acquisition, which makes the purchase even more ironic.*
 
-A sales practice called "very important person (VIP) marketing" targets the sales pitch at senior decision makers who have buying authority. VIP marketing often focuses on chief executive officers of small- to medium-size corporations. A commitment to the product is made without proper technical evaluation.
+As razões para aquisição da âncora geralmente são atraentes no momento. Por exemplo, a política ou uma ligação programática requer a compra e o uso de um pedaço particular de hardware ou software. Este é o pressuposto inicial (ou restrição) para o projeto de software. Outra razão é quando um gerente chave está convencido da utilidade desta aquisição.
+
+*The reasons for acquiring a Boat Anchor are usually compelling at the time. For example, a policy or programmatic relationship may require the purchase and usage of a particular piece of hardware or software. This is a starting assumption (or constraint) of the software project. Another compelling reason is when a key manager is convinced of the utility of the acquisition.*
+
+Uma pratica de venda chamada "pessoa muito importante (_VIP_) marketing" tem como alvo tomadores de decisão senior que tem autoridade para compra. _VIP marketing_ geralmente tem como foco gerentes executivos de pequenas - a média - corporações. Um comitê para o produto é feito sem uma avaliação técnica apropriada.
+
+*A sales practice called "very important person (VIP) marketing" targets the sales pitch at senior decision makers who have buying authority. VIP marketing often focuses on chief executive officers of small- to medium-size corporations. A commitment to the product is made without proper technical evaluation.*
 
 ![](https://sourcemaking.com/files/sm/images/anchor.jpg)
 
-The consequences for managers and software developers are that significant effort may have to be devoted to making the product work.
+As consequências para gerentes e desenvolvedores de software resultam em um esforço significante para fazer o produto funcionar.
 
-After a significant investment of time and resources, the technical staff realizes that the product is useless in the current context, and abandons it for another technical approach. Eventually, the Boat Anchor is set aside and gathers dust in some corner (if it's hardware).
+*The consequences for managers and software developers are that significant effort may have to be devoted to making the product work.*
+
+Após um investimento significante de tempo e recursos, o pessoal técnico percebe que o produto é inútil no contexto atual, e abandonam para outra abordagem técnica. Eventualmente, a Âncora é deixada de lado e acumula poeira em algum canto (se for hardware).
+
+*After a significant investment of time and resources, the technical staff realizes that the product is useless in the current context, and abandons it for another technical approach. Eventually, the Boat Anchor is set aside and gathers dust in some corner (if it's hardware).*
 
 ##Refactored Solution
 
