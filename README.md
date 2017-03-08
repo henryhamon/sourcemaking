@@ -15,15 +15,17 @@ No caso de traduções, verifique o status de cada capitulo abaixo, caso já est
 Revisões e correções ortográficas de capitulos já traduzidos são bem-vindas.
 
 ## Status da Tradução
-### 1. Design Patterns
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1 Creational Patterns
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1 - [x] [Abstract Factory](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/1_abstract_factory.md)
+<ul> 1. Design Patterns
+<li> 1.1 Creational Patterns <ul>
+<li> 1.1.1 - [x] [Abstract Factory](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/1_abstract_factory.md) </li>
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2 Structural Patterns
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.1 - [x] [Adapter](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/1_adapter.md)
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3 Behavioral Patterns
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3.1 - [  ] [Chain of Responsability](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/1_chain_of_responsibility.md)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3.10 - [x] [Strategy](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/3_behavioral_patterns/10_strategy.md)
-
+</ul>
+</li>
+</ul>
 
 ### 2. Anti-Patterns
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 Software Development
