@@ -15,12 +15,12 @@ No caso de traduções, verifique o status de cada capitulo abaixo, caso já est
 Revisões e correções ortográficas de capitulos já traduzidos são bem-vindas.
 
 ## Status da Tradução
-<ul>
+<ul style="list-style:none;">
 <li>1. Design Patterns 
-  <ul>
+  <ul style="list-style:none;">
     <li> 1.1 Creational Patterns 
-    <ul>
-    <li> 1.1.1 - <ul><li>[x] Abstract Factory</li></ul> [Abstract Factory](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/1_abstract_factory.md) </li>
+    <ul style="list-style:none;">
+    <li> 1.1.1 - <ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/1_abstract_factory.md">Abstract Factory</a></li></ul> [Abstract Factory](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/1_abstract_factory.md) </li>
       #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2 Structural Patterns
       ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.1 - [x] [Adapter](https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/1_adapter.md)
       #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3 Behavioral Patterns
