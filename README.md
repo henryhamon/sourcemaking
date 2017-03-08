@@ -27,6 +27,7 @@ Revisões e correções ortográficas de capitulos já traduzidos são bem-vinda
 
 ### 2. Anti-Patterns
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 Software Development
+##### <ul><li>[x] item1</li><li>[ ] item2</li></ul>
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1 - [x] [The Blob](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/01_the_blob.md)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.2 - [x] [Continuous Obsolescence](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/02_countinuous_obsolescence.md)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.3 - [x] [Lava Flow](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/03_lava_flow.md)
