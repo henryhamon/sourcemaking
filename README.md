@@ -21,23 +21,23 @@ Revisões e correções ortográficas de capitulos já traduzidos são bem-vinda
     <li> 1.1 Creational Patterns 
     <ul style="list-style:none;">
       <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/1_abstract_factory.md">1_abstract_factory</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/2_builder.md">2_builder</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/3_factory_method.md">3_factory_method.md</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/4_object_pool.md">4_object_pool</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/5_prototype.md">5_prototype</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/6_singleton.md">6_singleton</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/2_builder.md">2_builder</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/3_factory_method.md">3_factory_method.md</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/4_object_pool.md">4_object_pool</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/5_prototype.md">5_prototype</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/6_singleton.md">6_singleton</a></li></ul></li>
       </ul>
     </li>
     <li> 1.2 Structural Patterns
     <ul style="list-style:none;">
       <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/1_adapter.md">1_adapter</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/2_bridge.md">2_bridge</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/3_composite.md">3_composite</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/4_decorator.md">4_decorator</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/5_facade.md">5_facade</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/6_flyweight.md">6_flyweight</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/7_private_class_data.md">7_private_class_data</a></li></ul></li>
-	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/8_proxy.md">8_proxy</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/2_bridge.md">2_bridge</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/3_composite.md">3_composite</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/4_decorator.md">4_decorator</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/5_facade.md">5_facade</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/6_flyweight.md">6_flyweight</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/7_private_class_data.md">7_private_class_data</a></li></ul></li>
+	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/8_proxy.md">8_proxy</a></li></ul></li>
       </ul>
     </li>
     <li> 1.3 Behavioral Patterns
