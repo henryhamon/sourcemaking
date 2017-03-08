@@ -36,15 +36,22 @@ Revisões e correções ortográficas de capitulos já traduzidos são bem-vinda
     </li>
   </ul>
  </li>
-
-
-### 2. Anti-Patterns
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 Software Development
-##### <ul><li>[x] item1</li><li>[ ] item2</li></ul>
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1 - [x] [The Blob](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/01_the_blob.md)
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.2 - [x] [Continuous Obsolescence](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/02_countinuous_obsolescence.md)
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.3 - [x] [Lava Flow](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/03_lava_flow.md)
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.4 - [  ] [Ambiguous Viewpoint](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/04_ambiguous_viewpoint.md)
+ 
+ <li>2. Anti-Patterns
+  <ul style="list-style:none;">
+    <li> 2.1 Software Development
+    <ul style="list-style:none;">
+      <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/01_the_blob.md">01_the_blob</a></li></ul></li>
+      <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/02_countinuous_obsolescence.md">02_countinuous_obsolescence</a></li></ul></li>
+       <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/03_lava_flow.md">03_lava_flow</a></li></ul></li>
+       <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/04_ambiguous_viewpoint.md">04_ambiguous_viewpoint</a></li></ul></li>
+      </ul>
+    </li>
+    
+  </ul>
+ </li>
+ 
+ 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.5 - [  ] [Functional Decomposition](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/05_functional_decomposition.md)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.6 - [  ] [Poltergeists](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/06_poltergeists.md)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.7 - [x] [Boat Anchor](https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/07_boat_anchor.md)
