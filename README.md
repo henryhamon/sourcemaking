@@ -16,7 +16,7 @@ Revisões e correções ortográficas de capitulos já traduzidos são bem-vinda
 
 ## Status da Tradução
 <ul style="list-style:none;">
-<li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/introduction.md">1. Design Patterns</a></li></ul>
+<li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/introduction.md">1. Design Patterns</a></li></ul>
   <ul style="list-style:none;">
     <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/introduction.md">1.1 Creational Patterns </a></li></ul>
     <ul style="list-style:none;">
