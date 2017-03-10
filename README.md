@@ -59,7 +59,7 @@ Revisões e correções ortográficas de capitulos já traduzidos são bem-vinda
   </ul>
  </li>
  
- <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/introduction.md">2. Anti-Patterns</a></li></ul>
+ <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/introduction.md">2. Anti-Patterns</a></li></ul>
   <ul style="list-style:none;">
     <li> <ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/2_anti_patterns/1_software_development_antipatterns/introduction.md">2.1 Software Development Anti-Patterns</a></li></ul>
     <ul style="list-style:none;">
