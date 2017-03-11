@@ -14,6 +14,7 @@ No caso de traduções, verifique o status de cada capitulo abaixo, caso já est
 
 Revisões e correções ortográficas de capitulos já traduzidos são bem-vindas.
 
+
 ## Status da Tradução
 <ul style="list-style:none;">
 <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/introduction.md">1. Design Patterns</a></li></ul>
@@ -22,7 +23,7 @@ Revisões e correções ortográficas de capitulos já traduzidos são bem-vinda
     <ul style="list-style:none;">
       <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/1_abstract_factory.md">1_abstract_factory</a></li></ul></li>
 	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/2_builder.md">2_builder</a></li></ul></li>
-	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/3_factory_method.md">3_factory_method.md</a></li></ul></li>
+	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/3_factory_method.md">3_factory_method.md</a></li></ul></li>
 	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/4_object_pool.md">4_object_pool</a></li></ul></li>
 	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/5_prototype.md">5_prototype</a></li></ul></li>
 	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/6_singleton.md">6_singleton</a></li></ul></li>
