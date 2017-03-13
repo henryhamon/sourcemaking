@@ -29,7 +29,7 @@ Revisões e correções ortográficas de capitulos já traduzidos são bem-vinda
 	  <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/1_creational_patterns/6_singleton.md">6_singleton</a></li></ul></li>
       </ul>
     </li>
-    <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/introduction.md">1.2 Structural Patterns</a></li></ul>
+    <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/introduction.md">1.2 Structural Patterns</a></li></ul>
     <ul style="list-style:none;">
       <li><ul><li>[x] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/1_adapter.md">1_adapter</a></li></ul></li>
 	  <li><ul><li>[ ] <a href="https://github.com/henryhamon/sourcemaking/blob/master/1_design_patterns/2_structural_patterns/2_bridge.md">2_bridge</a></li></ul></li>
