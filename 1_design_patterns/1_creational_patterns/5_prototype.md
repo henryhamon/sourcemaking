@@ -5,7 +5,7 @@
 * O operador ```new``` é considerado prejudicial.
 
 ## Problema
-Aplicação "encomoda" a classe do objeto a ser criado em cada expressão ```new```.
+Aplicação "incomoda" a classe do objeto a ser criado em cada expressão ```new```.
 
 ## Discussão
 Declare uma classe base abstrata que especifique um método "clone" puro virtual, e, mantenha um dicionário de todos as classes "clonáveis" concretas derivadas. Qualquer classe que necessite de uma capacidade de "construtor polimórfico": deriva da classe base abstrata, registra a sua instancia de protótipo, e implementa a operação ```clone()```.
